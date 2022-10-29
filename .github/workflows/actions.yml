@@ -1,5 +1,7 @@
 name: Actions
-runs-on: push:
+on:
+  # на push и pull_request, только для ветки master
+  push:
 jobs:
   setup:
     runs-on: ubuntu-latest
