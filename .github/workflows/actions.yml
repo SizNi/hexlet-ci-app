@@ -17,5 +17,7 @@ jobs:
         run: make tests
       - name: linter
         run: make lint
+        env:
+          SNYK_TOKEN: ${{ ca8ebf9d-e57a-427f-af25-b3b6a1656bb6 }}
 
     
